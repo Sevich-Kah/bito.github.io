@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Beatrice</title>
+        <meta charset="UTF-8"><!--Define the character set used-->
+        <meta name="description" content="Beatrice"><!--Define a description of your web page-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Setting the viewport to make your website look good on all devices-->
+        <link rel="stylesheet" href="buena.css">
+        <link rel="icon" href="title1.jpeg">
+    </head>
+    <body>
+        <div class="back">
+            <div>
+                <h1 class="head">Beatrice</h1>
+                <div class="img"></div>
+                <button onclick="openFaq()">welcome</button>
+            </div>
+        </div>
+        <div class="faq" id="faq">
+            <img class="close" src="cross.png" onclick="closeFaq()">
+            <div class="question" onclick="toggleAnswer(this)" tabindex="0">
+                <p>bliss</p>
+                <p class="answer">
+                    In a realm of dreams and grace,<br>
+                    Where laughter fills the air,<br>
+                    There dwells a girl with gentle face,<br>
+                    A beauty beyond <br>
+                    <br>
+                    Her name is Beatrice,<br>
+                    Her eyes, like pools of starlit night,<br>
+                    Reflect the cosmos, vast and bright,<br>
+                    Her lips, like petals kissed by dew,<br>
+                    Hold tales of love, both old and new<br>
+                    A beatiful damsel of bliss
+                </p>
+            </div>
+            <div class="question" onclick="toggleAnswer(this)" tabindex="0">
+                <p>What do I know about you</p>
+                <p class="answer">That I can beat you at FIFA
+                    <br>At least we share the same favorite color</p>
+            </div>
+            <div class="question" onclick="toggleAnswer(this)" tabindex="0">
+                <p>Photos</p>
+                <p class="answer">I have none unfortunately</p>
+            </div>
+        </div>
+        <script src="buena.js"></script>
+    </body>
+</html>
