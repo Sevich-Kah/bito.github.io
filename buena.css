@@ -58,7 +58,6 @@ button:focus {
     background-repeat: no-repeat;
     background-size: cover;
     animation: changeBackground 20s infinite alternate;
-    transition: background-image 1s ease-in-out; /* Added transition */
 }
 
 @keyframes changeBackground {
